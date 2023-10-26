@@ -1,0 +1,20 @@
+{
+    "name": "frontend",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "NODE_ENV=development vite",
+        "build-dev": "NODE_ENV=development vite build",
+        "build-prod": "NODE_ENV=production vite build",
+        "build-test": "NODE_ENV=test vite build"
+    },
+    "dependencies": {
+        "axios": "^1.5.1",
+        "vue": "^3.3.4",
+        "vue-router": "^4.2.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.2.3",
+        "vite": "^4.4.5"
+    }
+}
